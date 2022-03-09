@@ -37,7 +37,7 @@ def convert_to_dict():
     
     data = currency_of_the_day()
     convert = {'last_updated': data[1][0], 'value': float(data[1][3])}
-    #print(conver)
+    print(convert)
     return convert
 
 convert_to_dict()

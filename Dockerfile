@@ -1,4 +1,6 @@
-FROM python:3.8.4-slim-buster
+FROM python:3.9
+
+WORKDIR '/backend'
 
 COPY app ./app
 
@@ -10,5 +12,9 @@ RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
 EXPOSE 8080
 
+# RUN pytest -vv
+
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080"]
+
+
 
