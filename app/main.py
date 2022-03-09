@@ -128,15 +128,4 @@ async def read_item(token: str = Depends(oauth2_scheme)):
 @app.get("/message")
 async def read_item():
 
-    clientIp = request.client.host
-    res = limiter(clientIp, 5)
-
-    if res["call"]:
-        return {"remember": message}
-    
-    else:
-        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE,      
-            detail={
-                "message": "call limit reached",
-                "ttl": res["ttl"]
-                })
+    return {"remember": message}

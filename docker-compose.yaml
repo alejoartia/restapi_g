@@ -5,7 +5,6 @@ services:
       image: redis:latest    
     fapi:      
       image: python:3.9    
-      web:  
       build: .      
       restart: always      
       depends_on:        
