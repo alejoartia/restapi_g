@@ -63,9 +63,10 @@ you can use:
 username : alejo
 password : secret
 
+[](https://gitlab.com/alejo.artia/restapi/-/blob/master/static/Screenshot 2022-03-09 at 15.38.08.png)
+
 
 /token will provide the bearer token the you can access by the headers with the autho.
-
 # PROJECT STRUCTURE
 
 ---
