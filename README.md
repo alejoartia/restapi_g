@@ -51,6 +51,21 @@ $ docker exec -it currency pytest app/test_main.py
 
 redis is installed to manage the ratelimits 
 
+# ENDPOINTS
+
+-the API is documented by swagger, just need to be accesed by 
+
+http://localhost:8080/docs
+
+-once you access there it's necessary in login due to you need access with a token:
+you can use:
+
+username : alejo
+password : secret
+
+
+/token will provide the bearer token the you can access by the headers with the autho.
+
 # PROJECT STRUCTURE
 
 ---
