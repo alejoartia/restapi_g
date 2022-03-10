@@ -1,4 +1,4 @@
-API_KEY_FIXER = "aba77e90abbaff76df079b546d68c8aa"
+API_KEY_FIXER = "0c63cf4e3da9234d846ff3e4faadd5f3"
 BASE_URL_FIXER = "http://data.fixer.io/api/latest?access_key"
 BASE_URL_FEDERACION = "https://www.banxico.org.mx/tipcamb/tipCamMIAction.do"
 API_TOKEN_BANXICO = "1e4541a9cda5b68dc4630bd61e77eb780baaf3e364b7ece012ce7c7156f72663"
